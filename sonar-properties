@@ -1,0 +1,10 @@
+pipline{
+    agent{lable my-test hari}
+    stages{
+        stage(this is my id){
+            steps{
+                sh"echo this is my page"
+            }
+        }
+    }
+}
